@@ -220,3 +220,39 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
 }
 
 .plan-btn-wrapper { text-align: center;}
+
+.testimonials .block-text{
+    padding-right: 0;
+    text-align: center;
+}
+
+.testimonial-card {
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    padding: var(--size-30);
+}
+
+.testimonial-card .top {
+    display: flex;
+    align-items: center;
+    padding-bottom: var(--size-10);
+}
+
+.testimonial-card img.profile {
+    width: 70px;
+    border-radius: 50%;
+    margin-right: var(--size-20);
+}
+
+.top h4 {
+    margin-top: 0;
+    margin-bottom: var(--size-10);
+    font-weight: 600;
+    font-size: var(--size-18);
+}
+
+.bottom p {
+    margin: 0;
+    font-size: var(--size-16);
+    line-height: 1.6;
+}
