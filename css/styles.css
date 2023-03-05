@@ -171,3 +171,31 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
     text-align: center;
     padding-right: 0;
 }
+
+.price-card {
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: var(--size-16);
+}
+
+.price-card h3 {
+    margin-top: var(--size-40);
+    font-size: var(--size-18);
+    color: var(--font-color-dark);
+    font-weight: 600;
+}
+
+.plan-card hr { margin: 2rem 0 1rem; }
+
+.price{
+    color: var(--font-color-link);
+    font-size: var(--size-30);
+    font-weight: 600;
+}
+
+.price-card h3,
+.price-card .price,
+.price-card .billed { text-align: center;}
+
+.price-card li { margin-bottom: var(--size-10); }
+.price-card .icon {float: right;}
