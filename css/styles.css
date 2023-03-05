@@ -248,7 +248,7 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
 }
 
 .testimonial-card.lg .quote {
-    width:70px;
+    width:4.375rem;
     float: right;
     margin-top: var(--size-16);
 }
@@ -287,4 +287,12 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
     margin: 0;
     font-size: var(--size-14);
     line-height: 1.6;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--size-50);
+    padding: var(--size-100) 0;
+
 }
