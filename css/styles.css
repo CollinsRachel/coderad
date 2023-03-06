@@ -291,12 +291,37 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
     line-height: 1.6;
 }
 
-.footer-top {
+footer .footer-top {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--size-50);
     padding: var(--size-100) 0;
-    background-color: var(--footer);
 }
 
-.footer-bottom { background-color: var(--footer-base); }
+footer.bg-footer { background-color: var(--footer);}
+footer .footer-bottom { background-color: var(--footer-base); }
+
+footer .footer-col { justify-self: center;}
+
+.footer-top h5 {
+    color: var(--white);
+    font-weight: 500;
+    margin-bottom: var(--size-16);
+}
+
+.contact-info  li {
+    color: var(--white);
+    margin-bottom: var(--size-10);
+}
+
+.contact-info li i { width: var(--size-30);}
+
+.social-icons ul li {
+    display: inline-block;
+    margin-right: var(--size-16);
+}
+
+.social-icons ul li a {
+    color: var(--white);
+    font-size: var(--size-16);
+}
