@@ -350,3 +350,22 @@ footer .footer-col { justify-self: center;}
     color: var(--font-color-light);
     font-size: var(--size-10);
 }
+
+.footer-bottom-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+.footer-bottom { padding: var(--size16) 0; }
+
+.copyright p { color: var(--font-color-light); }
+
+.footer-bottom-links ul li {
+    display: inline-block;
+    margin-right: var(--size-10);
+}
+
+.footer-bottom-links ul li a { color: var(--white); }
