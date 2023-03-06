@@ -44,7 +44,10 @@
     z-index: 1;
     padding: 4.6875rem 0;
 }
-.bg-header{ background-image: url("../CodeRad-assets/bg-header-1.jpg"); }
+.bg-header{ 
+    background-image: url("../CodeRad-assets/bg-header-1.jpg"); 
+    padding: var(--size-150) 0;
+}
 .video-demo{ background-image: url("../CodeRad-assets/bg-demo.jpg"); }
 
 .bg-header::before{
@@ -69,7 +72,7 @@
 }
 
 .why-me {
-    padding: var(--size0-150) 0;
+    padding: var(--size-150) 0;
 }
 .why-me-wrapper {
     display: flex;
@@ -80,8 +83,9 @@
     flex: 1;
 }
 
-.block-text {
-    padding-right:var(--size-50);
+.why-me-wrapper .block-text {
+    padding-right:var(--size-100);
+    max-width:35rem ;
 }
 
 .block-text span { 
@@ -143,6 +147,7 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
 .video-demo .block-text h2, 
 .video-demo .block-text p {
     color: var(--white);
+    margin: var(--size-50) 0;
 }
 
 .video-btn {
@@ -186,7 +191,7 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
 .price-card {
     background-color: var(--white);
     border-radius: 8px;
-    padding: var(--size-16);
+    padding: var(--size-40) var(--size-16);
 }
 
 .price-card .checked { color: var(--success);}
@@ -222,6 +227,7 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
 }
 
 .plan-btn-wrapper { text-align: center;}
+.plan-btn-wrapper a { width: 100%; }
 
 .testimonials { margin: var(--size-100) 0; }
 
@@ -307,6 +313,7 @@ footer .footer-col { justify-self: center;}
     color: var(--white);
     font-weight: 500;
     margin-bottom: var(--size-16);
+    font-size: var(--size-16);
 }
 
 .contact-info  li {
@@ -330,6 +337,10 @@ footer .footer-col { justify-self: center;}
     color: #858497;
 }
 
+.services-wrapper h5 {
+    margin-bottom: initial;
+}
+
 .recent-posts {
     display: flex; 
     margin-bottom: var(--size-16);
@@ -345,6 +356,7 @@ footer .footer-col { justify-self: center;}
 .post-inner h6 a { 
     color: var(--white);
     font-weight: 600;
+    font-size: 0.75rem;
  }
 .post-inner span {
     color: var(--font-color-light);
