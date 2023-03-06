@@ -325,3 +325,28 @@ footer .footer-col { justify-self: center;}
     color: var(--white);
     font-size: var(--size-16);
 }
+
+.services-wrapper p {
+    color: #858497;
+}
+
+.recent-posts {
+    display: flex; 
+    margin-bottom: var(--size-16);
+}
+
+.recent-posts .post-img-wrapper {
+    width: var(--size-100);
+    margin-right: var(--size-10);
+}
+
+.post-inner h6 { margin: 0; }
+
+.post-inner h6 a { 
+    color: var(--white);
+    font-weight: 600;
+ }
+.post-inner span {
+    color: var(--font-color-light);
+    font-size: var(--size-10);
+}
