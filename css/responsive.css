@@ -27,3 +27,23 @@
         grid-column: 1 / 3;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .hero-wrapper { text-align: center;}
+
+    .why-me-wrapper {
+        flex-wrap: wrap;
+        text-align:center;
+    }
+
+    .why-me-wrapper .block-text { padding-right: 0; }
+    .why-me-wrapper > div { flex: initial; }
+
+    footer .footer-col:nth-child(3) {
+        grid-column: initial;
+    }
+
+    footer .footer-col:nth-child(1) {
+        order: 3;
+    }
+}
