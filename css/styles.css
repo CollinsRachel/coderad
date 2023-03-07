@@ -338,7 +338,10 @@ footer .footer-top {
 footer.bg-footer { background-color: var(--footer);}
 footer .footer-bottom { background-color: var(--footer-base); }
 
-footer .footer-col { justify-self: center;}
+footer .footer-col { 
+    justify-self: center;
+    max-width: 250px;
+}
 
 .footer-top h5 {
     color: var(--white);

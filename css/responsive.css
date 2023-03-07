@@ -22,4 +22,8 @@
         margin-right: var(--size-20);
         color: var(--font-color-dark);
     }
+
+    footer .footer-col:nth-child(3) {
+        grid-column: 1 / 3;
+    }
 }
