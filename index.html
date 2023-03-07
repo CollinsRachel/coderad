@@ -19,6 +19,9 @@
     <div id="pageTop"></div>
     <nav class="navbar nav">
         <div class="container">
+            <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+                <span>&#9776;</span>
+            </button>
             <a class="navbar-brand" href="">CodeRAD</a> 
         <ul class="navbar-nav">
             <li class="nav-link">
@@ -366,5 +369,17 @@
    <a id="scrollUp" href="#pageTop">
     <i class=" fas fa-arrow-up"></i>
    </a>
+
+   <script>
+    const navButton = document.querySelector('button[aria-expanded]');
+
+    function toggleNav( {target} ) {
+        const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+        navButton.setAttribute('aria-expanded', !expanded);
+    }
+
+    navButton.addEventListener('click', toggleNav); 
+   </script>
+
 </body>
 </html>
